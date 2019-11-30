@@ -69,3 +69,16 @@
 // obj.b = 2;
 
 
+
+// function Person(n, a) {
+//   this.n = n;
+//   this.a = a;
+// }
+
+// Person.getStaticName = function() {return this.n;}
+// Person.prototype.getName = function() {return this.n;}
+// Person.prototype.getAge = function() {return this.a;}
+
+// var p = new Person('jy', 10);
+// console.log(p.getStaticName()); //error
+// console.log(p.getName()); // jy

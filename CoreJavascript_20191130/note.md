@@ -378,7 +378,7 @@
       this.a = a;
     }
 
-    Person.getStaticName = function() {return this.n;}
+    Person.getStaticName = function() {return this.n;}  //static method
     Person.prototype.getName = function() {return this.n;}
     Person.prototype.getAge = function() {return this.a;}
 
